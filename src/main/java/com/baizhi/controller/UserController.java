@@ -21,7 +21,6 @@ public class UserController {
         List<User> list = userService.selectAll();
         modelMap.addAttribute("list", list);
         
-        //this is the first to using github.
         return "forward:/show.jsp";
     }
 }
