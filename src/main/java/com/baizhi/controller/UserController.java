@@ -20,7 +20,7 @@ public class UserController {
     public String selectAll(ModelMap modelMap) {
         List<User> list = userService.selectAll();
         modelMap.addAttribute("list", list);
-        
+        //asdfasdfadsf随便写的
         return "forward:/show.jsp";
     }
 }
